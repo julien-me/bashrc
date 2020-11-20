@@ -53,3 +53,7 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 alias ll="ls -alh"
+
+# Unlimited history
+HISTSIZE=
+HISTFILESIZE=
