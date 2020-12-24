@@ -44,7 +44,8 @@ export FZF_CTRL_T_COMMAND='$FZF_DEFAULT_COMMAND'
 export PATH=$PATH:~/.local/bin
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This doesn't load nmp and so doesn't slow down bash
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # export pyenv
@@ -57,3 +58,9 @@ alias ll="ls -alh"
 # Unlimited history
 HISTSIZE=
 HISTFILESIZE=
+
+# Add snap to PATH
+export PATH=$PATH:/snap/bin
+
+# Default editor
+export EDITOR=vim
