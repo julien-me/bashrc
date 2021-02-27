@@ -62,5 +62,9 @@ HISTFILESIZE=
 # Add snap to PATH
 export PATH=$PATH:/snap/bin
 
+# Add todo.sh utility (a todo program) to PATH
+export PATH=$PATH:/home/julien/local/todo.txt_cli-2.12.0/
+alias todo="todo.sh"
+
 # Default editor
 export EDITOR=vim
