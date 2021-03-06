@@ -68,3 +68,6 @@ alias todo="todo.sh"
 
 # Default editor
 export EDITOR=vim
+
+#Add Dart to path
+export PATH="$PATH:/usr/lib/dart/bin"
