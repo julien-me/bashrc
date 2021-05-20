@@ -36,11 +36,6 @@ export FZF_CTRL_T_COMMAND='$FZF_DEFAULT_COMMAND'
 #ZEPHYR_TOOLCHAIN_VARIANT=zephyr
 #ZEPHYR_SDK_INSTALL_DIR=$HOME/workspace/zephyr-sdk-0.10.0
 
-#parse_git_branch() {
-#	     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-#     }
-#export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
-
 export PATH=$PATH:~/.local/bin
 
 export NVM_DIR="$HOME/.nvm"
@@ -71,3 +66,6 @@ export EDITOR=vim
 
 #Add Dart to path
 export PATH="$PATH:/usr/lib/dart/bin"
+
+# Add android studio
+export PATH="$PATH:/home/julien/local/android-studio/bin"
